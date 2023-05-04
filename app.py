@@ -3,7 +3,6 @@ import yfinance as yf
 import pandas as pd
 import datetime
 from pycaret.regression import *
-
 app = Flask(__name__)
 
 def download_stock_data(stock_name):
